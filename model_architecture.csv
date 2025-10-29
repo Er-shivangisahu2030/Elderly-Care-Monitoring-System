@@ -1,0 +1,10 @@
+Layer Type,Output Shape,Parameters,Trainable
+Input,"(3, 224, 224)",0,-
+ResNet50 Base,(2048),~23M (pre-trained),Last 20 layers
+Global Average Pooling,(2048),0,-
+Fully Connected 1,(512),"1,049,088",Yes
+ReLU Activation,(512),0,-
+Dropout,(512),0,-
+Fully Connected 2,(3),"1,539",Yes
+Softmax (during inference),(3),0,-
+Output,(3),0,-

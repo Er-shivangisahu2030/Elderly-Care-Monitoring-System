@@ -1,0 +1,112 @@
+image_name,label,image_path
+fall001.jpg,"[0.0, 0.515592, 0.460993, 0.883547, 0.789598]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall001.jpg
+fall002.jpg,"[0.0, 0.505068, 0.42272, 0.496622, 0.704392]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall002.jpg
+fall003.jpg,"[0.0, 0.628378, 0.391047, 0.648649, 0.671453]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall003.jpg
+fall004.jpg,"[0.0, 0.509335, 0.457447, 0.717949, 0.650118]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall004.jpg
+fall005.jpg,"[0.0, 0.586149, 0.533544, 0.800676, 0.452846]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall005.jpg
+fall006.jpg,"[0.0, 0.570101, 0.357357, 0.515203, 0.630631]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall006.jpg
+fall007.jpg,"[0.0, 0.471146, 0.529551, 0.919925, 0.813239]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall007.jpg
+fall008.jpg,"[0.0, 0.506085, 0.315603, 0.697138, 0.394799]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall008.jpg
+fall009.jpg,"[0.0, 0.586149, 0.528561, 0.760135, 0.620891]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall009.jpg
+fall010.jpg,"[0.0, 0.33022, 0.496454, 0.252937, 0.453901]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall010.jpg
+fall011.jpg,"[0.0, 0.559122, 0.486636, 0.591216, 0.349906]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall011.jpg
+fall012.jpg,"[0.0, 0.424831, 0.62692, 0.494932, 0.550833]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall012.jpg
+fall013.jpg,"[0.0, 0.440878, 0.569806, 0.476351, 0.299531]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall013.jpg
+fall014.jpg,"[0.0, 0.410664, 0.450355, 0.75723, 0.791962]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall014.jpg
+fall015.jpg,"[0.0, 0.526182, 0.437922, 0.927365, 0.557432]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall015.jpg
+fall016.jpg,"[0.0, 0.652872, 0.421453, 0.518581, 0.646115]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall016.jpg
+fall017.jpg,"[0.0, 0.595781, 0.789598, 0.74572, 0.293144]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall017.jpg
+fall018.jpg,"[0.0, 0.533784, 0.416233, 0.655405, 0.774212]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall018.jpg
+fall019.jpg,"[0.0, 0.598818, 0.439078, 0.538851, 0.799596]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall019.jpg
+fall020.jpg,"[0.0, 0.498224, 0.544917, 0.856167, 0.692671]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall020.jpg
+fall021.jpg,"[0.0, 0.420235, 0.561466, 0.654619, 0.763593]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall021.jpg
+fall022.jpg,"[0.0, 0.605574, 0.434002, 0.559122, 0.804673]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall022.jpg
+fall023.jpg,"[0.0, 0.48902, 0.510154, 0.690878, 0.703137]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall023.jpg
+fall024.jpg,"[0.0, 0.538072, 0.595745, 0.688829, 0.643026]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall024.jpg
+fall025.jpg,"[0.0, 0.424831, 0.477154, 0.481419, 0.845287]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall025.jpg
+fall026.jpg,"[0.0, 0.365383, 0.466903, 0.66273, 0.6974]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall026.jpg
+fall027.jpg,"[0.0, 0.48614, 0.522459, 0.900872, 0.671395]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall027.jpg
+fall028.jpg,"[0.0, 0.471284, 0.37308, 0.932432, 0.728521]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall028.jpg
+fall029.jpg,"[0.0, 0.591216, 0.604066, 0.439189, 0.548986]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall029.jpg
+fall030.jpg,"[0.0, 0.556953, 0.449173, 0.769733, 0.713948]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall030.jpg
+fall031.jpg,"[0.0, 0.485834, 0.679669, 0.757889, 0.503546]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall031.jpg
+fall032.jpg,"[0.0, 0.638514, 0.493654, 0.655405, 0.461989]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall032.jpg
+fall033.jpg,"[0.0, 0.548986, 0.460787, 0.695946, 0.775217]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall033.jpg
+fall034.jpg,"[0.0, 0.461149, 0.574216, 0.672297, 0.851568]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall034.jpg
+fall035.jpg,"[0.0, 0.494088, 0.556044, 0.836149, 0.876689]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall035.jpg
+fall036.jpg,"[0.0, 0.616554, 0.711149, 0.692568, 0.497708]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall036.jpg
+fall037.jpg,"[0.0, 0.401182, 0.487308, 0.589527, 0.880824]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall037.jpg
+fall038.jpg,"[0.0, 0.515957, 0.491726, 0.308511, 0.520095]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall038.jpg
+fall039.jpg,"[0.0, 0.615709, 0.521576, 0.768581, 0.883363]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall039.jpg
+fall040.jpg,"[0.0, 0.388442, 0.529551, 0.768513, 0.661939]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall040.jpg
+fall041.jpg,"[0.0, 0.470439, 0.608768, 0.758446, 0.537124]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall041.jpg
+fall042.jpg,"[0.0, 0.646959, 0.582951, 0.699324, 0.561052]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall042.jpg
+fall043.jpg,"[0.0, 0.528815, 0.520095, 0.549177, 0.605201]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall043.jpg
+fall044.jpg,"[0.0, 0.669766, 0.542553, 0.616187, 0.64539]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall044.jpg
+fall045.jpg,"[0.0, 0.543074, 0.586619, 0.518581, 0.471311]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall045.jpg
+fall046.jpg,"[0.0, 0.647163, 0.832151, 0.705674, 0.330969]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall046.jpg
+fall047.jpg,"[0.0, 0.588682, 0.698096, 0.809122, 0.577396]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall047.jpg
+fall048.jpg,"[0.0, 0.576858, 0.607494, 0.798986, 0.605037]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall048.jpg
+fall049.jpg,"[0.0, 0.489362, 0.593381, 0.251773, 0.382979, 2.0, 0.903369, 0.429078, 0.175532, 0.41844]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall049.jpg
+fall050.jpg,"[0.0, 0.452128, 0.859338, 0.471631, 0.281324]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall050.jpg
+fall051.jpg,"[0.0, 0.536348, 0.873522, 0.501773, 0.252955]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall051.jpg
+fall052.jpg,"[0.0, 0.494681, 0.838061, 0.56383, 0.323877]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall052.jpg
+fall053.jpg,"[0.0, 0.484929, 0.51182, 0.363475, 0.323877]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall053.jpg
+fall054.jpg,"[0.0, 0.512411, 0.806147, 0.492908, 0.368794]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall054.jpg
+fall055.jpg,"[0.0, 0.399823, 0.397163, 0.342199, 0.510638]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall055.jpg
+fall056.jpg,"[0.0, 0.408688, 0.485816, 0.406028, 0.36643]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall056.jpg
+fall057.jpg,"[0.0, 0.526596, 0.832151, 0.946808, 0.335697]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall057.jpg
+fall058.jpg,"[0.0, 0.39805, 0.884161, 0.374113, 0.231678, 2.0, 0.125887, 0.520095, 0.141844, 0.198582]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall058.jpg
+fall059.jpg,"[0.0, 0.628546, 0.388889, 0.33156, 0.716312]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall059.jpg
+fall060.jpg,"[0.0, 0.715426, 0.871158, 0.565603, 0.257683]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall060.jpg
+fall061.jpg,"[0.0, 0.66844, 0.698582, 0.599291, 0.413712]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall061.jpg
+fall062.jpg,"[0.0, 0.390957, 0.84279, 0.781914, 0.304965]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall062.jpg
+fall063.jpg,"[0.0, 0.430851, 0.828605, 0.677305, 0.34279]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall063.jpg
+fall064.jpg,"[0.0, 0.500845, 0.642813, 0.99831, 0.565111]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall064.jpg
+fall065.jpg,"[0.0, 0.467061, 0.635135, 0.83277, 0.537469]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall065.jpg
+fall066.jpg,"[0.0, 0.44848, 0.653563, 0.876689, 0.506757]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall066.jpg
+fall067.jpg,"[0.0, 0.420608, 0.668919, 0.834459, 0.506757]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall067.jpg
+fall068.jpg,"[0.0, 0.398649, 0.599816, 0.560811, 0.706388]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall068.jpg
+fall069.jpg,"[0.0, 0.469595, 0.621314, 0.658784, 0.644963]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall069.jpg
+fall070.jpg,"[0.0, 0.476351, 0.59828, 0.439189, 0.648034]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\fall070.jpg
+not fallen001.jpg,"[1.0, 0.346284, 0.551285, 0.158784, 0.787733]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen001.jpg
+not fallen002.jpg,"[2.0, 0.621622, 0.459523, 0.756756, 0.827534]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen002.jpg
+not fallen003.jpg,"[2.0, 0.500845, 0.502998, 0.947635, 0.968454]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen003.jpg
+not fallen004.jpg,"[2.0, 0.530405, 0.554576, 0.5, 0.878286]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen004.jpg
+not fallen005.jpg,"[2.0, 0.690878, 0.508884, 0.503378, 0.969668]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen005.jpg
+not fallen006.jpg,"[2.0, 0.563345, 0.540307, 0.420608, 0.919386]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen006.jpg
+not fallen007.jpg,"[2.0, 0.44848, 0.573614, 0.390203, 0.774212]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen007.jpg
+not fallen008.jpg,"[2.0, 0.407493, 0.562648, 0.69736, 0.803783]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen008.jpg
+not fallen009.jpg,"[2.0, 0.477887, 0.51182, 0.654548, 0.829787]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen009.jpg
+not fallen010.jpg,"[2.0, 0.532095, 0.582399, 0.368243, 0.623701]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen010.jpg
+not fallen011.jpg,"[2.0, 0.656465, 0.516548, 0.611951, 0.782506]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen011.jpg
+not fallen012.jpg,"[1.0, 0.574834, 0.453901, 0.783142, 0.888889]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen012.jpg
+not fallen013.jpg,"[2.0, 0.408784, 0.501351, 0.560811, 0.967164]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen013.jpg
+not fallen014.jpg,"[2.0, 0.307432, 0.546284, 0.432432, 0.907432]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen014.jpg
+not fallen015.jpg,"[1.0, 0.458276, 0.460993, 0.299022, 0.893617]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen015.jpg
+not fallen016.jpg,"[1.0, 0.361702, 0.457447, 0.531915, 0.758865]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen016.jpg
+not fallen017.jpg,"[1.0, 0.467061, 0.560638, 0.211149, 0.829632, 1.0, 0.643581, 0.788028, 0.118243, 0.341775]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen017.jpg
+not fallen018.jpg,"[2.0, 0.534628, 0.605236, 0.548986, 0.725241]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen018.jpg
+not fallen019.jpg,"[1.0, 0.42411, 0.466903, 0.349096, 0.678487]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen019.jpg
+not fallen020.png,"[1.0, 0.516844, 0.661939, 0.207447, 0.586288]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen020.png
+not fallen021.png,"[1.0, 0.452128, 0.63948, 0.223404, 0.640662]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen021.png
+not fallen022.png,"[1.0, 0.60461, 0.572104, 0.159574, 0.539007]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen022.png
+not fallen023.png,"[1.0, 0.624113, 0.624113, 0.195035, 0.624113]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen023.png
+not fallen024.png,"[1.0, 0.595745, 0.640662, 0.198582, 0.609929]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen024.png
+not fallen025.png,"[1.0, 0.283688, 0.589835, 0.191489, 0.579196]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen025.png
+not fallen026.png,"[1.0, 0.204787, 0.664303, 0.23227, 0.609929]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen026.png
+not fallen027.png,"[1.0, 0.176418, 0.572104, 0.16844, 0.553191]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen027.png
+not fallen028.png,"[1.0, 0.324468, 0.608747, 0.195035, 0.607565]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen028.png
+not fallen029.png,"[1.0, 0.748227, 0.695035, 0.22695, 0.600473]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen029.png
+not fallen030.png,"[1.0, 0.592199, 0.626478, 0.187943, 0.614657]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen030.png
+not fallen031.png,"[1.0, 0.617021, 0.541371, 0.120567, 0.486998]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen031.png
+not fallen032.png,"[2.0, 0.623227, 0.579196, 0.132979, 0.411348]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen032.png
+not fallen033.png,"[0.0, 0.62766, 0.567376, 0.198582, 0.330969]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen033.png
+not fallen034.png,"[0.0, 0.631206, 0.566194, 0.184397, 0.29078]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen034.png
+not fallen035.png,"[2.0, 0.490248, 0.693853, 0.193262, 0.451537]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen035.png
+not fallen036.png,"[1.0, 0.340426, 0.595745, 0.148936, 0.576832]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen036.png
+not fallen037.png,"[2.0, 0.304965, 0.667849, 0.177305, 0.347518]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen037.png
+not fallen038.png,"[1.0, 0.200355, 0.565012, 0.195035, 0.534279]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen038.png
+not fallen039.png,"[1.0, 0.093972, 0.566194, 0.173759, 0.560284]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen039.png
+not fallen040.png,"[1.0, 0.580674, 0.617021, 0.161348, 0.591017]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen040.png
+not fallen041.png,"[2.0, 0.721631, 0.689125, 0.251773, 0.380615]",E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\cleaned\fall_dataset\images\test\not fallen041.png

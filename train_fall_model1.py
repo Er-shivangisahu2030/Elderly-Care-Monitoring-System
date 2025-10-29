@@ -1,0 +1,169 @@
+import os
+import ast
+import numpy as np
+import pandas as pd
+import torch
+import torch.nn as nn
+import torch.optim as optim
+from torch.utils.data import Dataset, DataLoader
+from torchvision import transforms, models
+from PIL import Image
+from tqdm import tqdm
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, classification_report, confusion_matrix
+
+# CONFIGURATION - update paths to your absolute locations!
+TRAIN_CSV = r"E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\processed\fall_train_labels_clean.csv"
+TEST_CSV = r"E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\datasets\processed\fall_test_labels_clean.csv"
+MODEL_SAVE_DIR = r"E:\PROJECT FILE\PROJECT 3-ELDER CARE ASSISTENCE AND MONITORING SYSTEM\models"
+if not os.path.exists(MODEL_SAVE_DIR):
+    os.makedirs(MODEL_SAVE_DIR)
+MODEL_PATH = os.path.join(MODEL_SAVE_DIR, "best_fall_detection_model.pth")
+HISTORY_PATH = os.path.join(MODEL_SAVE_DIR, "training_history.csv")
+EPOCHS = 50
+BATCH_SIZE = 16
+LEARNING_RATE = 0.001
+IMG_SIZE = 224
+NUM_CLASSES = 3
+DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+class FallDetectionCSVDataset(Dataset):
+    def __init__(self, csv_file, transform=None):
+        self.data = pd.read_csv(csv_file)
+        self.transform = transform
+        self.labels = [ast.literal_eval(label) for label in self.data['label']]
+        self.image_paths = self.data['image_path'].tolist()
+    def __len__(self):
+        return len(self.data)
+    def __getitem__(self, idx):
+        img_path = self.image_paths[idx]
+        try:
+            if os.path.exists(img_path):
+                image = Image.open(img_path).convert('RGB')
+            else:
+                image = Image.new('RGB', (IMG_SIZE, IMG_SIZE), color='gray')
+        except Exception:
+            image = Image.new('RGB', (IMG_SIZE, IMG_SIZE), color='gray')
+        label_data = self.labels[idx]
+        class_id = int(label_data[0])
+        if self.transform:
+            image = self.transform(image)
+        return image, class_id
+
+class FallDetectionResNet(nn.Module):
+    def __init__(self, num_classes=3):
+        super(FallDetectionResNet, self).__init__()
+        self.resnet = models.resnet50(pretrained=True)
+        for param in list(self.resnet.parameters())[:-30]:
+            param.requires_grad = False
+        num_features = self.resnet.fc.in_features
+        self.resnet.fc = nn.Sequential(
+            nn.Linear(num_features, 512),
+            nn.ReLU(),
+            nn.BatchNorm1d(512),
+            nn.Dropout(0.5),
+            nn.Linear(512, 256),
+            nn.ReLU(),
+            nn.BatchNorm1d(256),
+            nn.Dropout(0.3),
+            nn.Linear(256, num_classes)
+        )
+    def forward(self, x):
+        return self.resnet(x)
+
+train_transform = transforms.Compose([
+    transforms.Resize((IMG_SIZE, IMG_SIZE)),
+    transforms.RandomHorizontalFlip(p=0.5),
+    transforms.RandomRotation(15),
+    transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2),
+    transforms.RandomAffine(degrees=0, translate=(0.1, 0.1)),
+    transforms.ToTensor(),
+    transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),
+])
+test_transform = transforms.Compose([
+    transforms.Resize((IMG_SIZE, IMG_SIZE)),
+    transforms.ToTensor(),
+    transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
+])
+train_dataset = FallDetectionCSVDataset(TRAIN_CSV, transform=train_transform)
+test_dataset = FallDetectionCSVDataset(TEST_CSV, transform=test_transform)
+train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True, num_workers=2, pin_memory=True)
+test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False, num_workers=2, pin_memory=True)
+
+model = FallDetectionResNet(num_classes=NUM_CLASSES).to(DEVICE)
+criterion = nn.CrossEntropyLoss()
+optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE)
+scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=5, verbose=True)
+
+best_test_acc = 0.0
+training_history = {'train_loss': [], 'train_acc': [], 'test_loss': [], 'test_acc': [], 'test_precision': [], 'test_recall': [], 'test_f1': []}
+
+for epoch in range(EPOCHS):
+    model.train(); train_loss = 0.0; train_preds = []; train_labels = []
+    for images, labels in tqdm(train_loader, desc=f'Epoch {epoch+1}/{EPOCHS} [Train]'):
+        images, labels = images.to(DEVICE), labels.to(DEVICE)
+        optimizer.zero_grad()
+        outputs = model(images)
+        loss = criterion(outputs, labels)
+        loss.backward()
+        optimizer.step()
+        train_loss += loss.item()
+        _, predicted = torch.max(outputs.data, 1)
+        train_preds.extend(predicted.cpu().numpy())
+        train_labels.extend(labels.cpu().numpy())
+    train_loss = train_loss / len(train_loader)
+    train_acc = accuracy_score(train_labels, train_preds)
+
+    model.eval(); test_loss = 0.0; test_preds = []; test_labels = []
+    with torch.no_grad():
+        for images, labels in tqdm(test_loader, desc=f'Epoch {epoch+1}/{EPOCHS} [Test]'):
+            images, labels = images.to(DEVICE), labels.to(DEVICE)
+            outputs = model(images)
+            loss = criterion(outputs, labels)
+            test_loss += loss.item()
+            _, predicted = torch.max(outputs.data, 1)
+            test_preds.extend(predicted.cpu().numpy())
+            test_labels.extend(labels.cpu().numpy())
+    test_loss = test_loss / len(test_loader)
+    test_acc = accuracy_score(test_labels, test_preds)
+    test_precision = precision_score(test_labels, test_preds, average='weighted', zero_division=0)
+    test_recall = recall_score(test_labels, test_preds, average='weighted', zero_division=0)
+    test_f1 = f1_score(test_labels, test_preds, average='weighted', zero_division=0)
+
+    scheduler.step(test_loss)
+    training_history['train_loss'].append(train_loss)
+    training_history['train_acc'].append(train_acc)
+    training_history['test_loss'].append(test_loss)
+    training_history['test_acc'].append(test_acc)
+    training_history['test_precision'].append(test_precision)
+    training_history['test_recall'].append(test_recall)
+    training_history['test_f1'].append(test_f1)
+    print(f'Epoch {epoch+1}: Train Loss={train_loss:.4f} | Train Acc={train_acc:.4f}')
+    print(f'            Test Loss={test_loss:.4f} | Test Acc={test_acc:.4f}')
+    print(f'            Precision={test_precision:.4f} | Recall={test_recall:.4f} | F1={test_f1:.4f}')
+    if test_acc > best_test_acc:
+        best_test_acc = test_acc
+        torch.save({'epoch': epoch,
+                    'model_state_dict': model.state_dict(),
+                    'optimizer_state_dict': optimizer.state_dict(),
+                    'test_acc': test_acc, 'test_loss': test_loss},
+                   MODEL_PATH)
+        print(f'* Best model saved! (Test Acc: {test_acc:.4f})')
+
+checkpoint = torch.load(MODEL_PATH, map_location='cpu')
+model.load_state_dict(checkpoint['model_state_dict'])
+model.eval()
+all_preds = []; all_labels = []
+with torch.no_grad():
+    for images, labels in test_loader:
+        images = images.to(DEVICE)
+        outputs = model(images)
+        _, predicted = torch.max(outputs.data, 1)
+        all_preds.extend(predicted.cpu().numpy())
+        all_labels.extend(labels.numpy())
+class_names = ['Fall', 'Standing', 'Sitting']
+print("Classification Report:")
+print(classification_report(all_labels, all_preds, target_names=class_names))
+print("Confusion Matrix:")
+print(confusion_matrix(all_labels, all_preds))
+pd.DataFrame(training_history).to_csv(HISTORY_PATH, index=False)
+print(f"Training history saved to: {HISTORY_PATH}")
